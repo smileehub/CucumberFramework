@@ -29,6 +29,10 @@ import cucumber.api.java.en.When;
 				{
 
 					   launchapp();
+					   
+					   System.out.println("application laucnhed");    //FOR GIT
+					   
+					   
 				}
 				
 				@When("^user enters userid and password adn click login button$")
