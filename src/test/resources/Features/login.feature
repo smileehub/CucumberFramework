@@ -1,6 +1,6 @@
 Feature: login functionality
 
-#@run
+
 @sanity
 Scenario: vlaid login
 Given user should be on login page
@@ -11,7 +11,7 @@ And close the browser
 
 
 
-#@run
+
 @smoke
 Scenario: E2E lead creation 
 
