@@ -1,6 +1,7 @@
 Feature: login functionality
 
-@run
+#@run
+@sanity
 Scenario: vlaid login
 Given user should be on login page
 When user enters userid and password adn click login button
@@ -10,7 +11,8 @@ And close the browser
 
 
 
-@run
+#@run
+@smoke
 Scenario: E2E lead creation 
 
 Given user should be on login page

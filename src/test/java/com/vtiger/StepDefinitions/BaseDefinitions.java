@@ -41,6 +41,10 @@ import cucumber.api.java.en.When;
 					//MAKE OBJECT OF LOGIN PAGE
 					loginpage lp=new loginpage(driver);
 					lp.login(prop.getProperty("username"),prop.getProperty("password"));
+					
+					
+					
+					System.out.println("userid and password");  //FOR GIT
 				}
 
 				@Then("^user should be land on home page$")
